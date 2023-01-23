@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://kit.fontawesome.com/a1cd51e70e.js" crossorigin="anonymous"></script>
+    <!-- keywords -->
+    <meta name="description" content="nEW wORLD, TIENDA DE COMICS" />
+    <meta name="keywords" content="COMICS, MANGAS,LIBROS, ANIME" />
+
+</head>
+
+<body>
+<!--logo-->
+    <header class="encabezado">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img src="./images/logo.jpg" alt="logo">
+                    <h1>NEW WORLD</h1>
+                </a>
+<!--navbar-->
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                    <ul class="navbar-nav m-auto ">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">COMICS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./manga.html">MANGAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./noticias.html">NOTICIAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                    <h1 class="Ver-Carrito" id="verCarrito">🛒<span id="cantidadCarrito" class="cantidad-carrito"></span></h1>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--titulo-->
+
+    <div class="novedades">
+
+        <h2>COMICS</h2>
+
+    </div>
+
+    <!--contenido-->
+
+    <div class="contenido" id="contenido"></div>
+
+    <!--carrito-->
+
+    <div class="carrito-container" id="carritoContainer"></div>
+
+    <!--footer-->
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="pie">
+                <footer>s
+                    <ul>
+                        <li><a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/?hl=es" class="instagram"><i
+                                    class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://twitter.com/home" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                    </ul>
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+            <div class="menuinf">
+               
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="">COMICS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/manga.html">MANGAS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="../pages/noticias.html">NOTICIAS</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contacto.html">CONTACTO</a>
+                      </li>
+                  </ul>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="./js/productos.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/carrito.js"></script>
+    
+</body>
+
+</html>
