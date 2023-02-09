@@ -134,10 +134,18 @@
     cursor: pointer;
   }
   /*boton*/
+  .botonpokemon.button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #6f42c1;
+  }
+
   .botonpokemon {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     width: 90%;
     margin: 10px; 

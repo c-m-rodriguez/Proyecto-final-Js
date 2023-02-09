@@ -15,6 +15,8 @@ const pintarCarrito = () => {
 
    carroButton.addEventListener ("click", () => {
     carritoContainer.style.display = "none";
+    
+    
    })
 
 
@@ -35,7 +37,8 @@ const pintarCarrito = () => {
     eliminar.className = "eliminar-producto";
     carritoContent.append(eliminar);
 
-    eliminar.addEventListener("click", eliminarProductos )    
+    eliminar.addEventListener("click", eliminarProductos )
+        
   })
 
 

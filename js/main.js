@@ -40,7 +40,9 @@ productos.forEach((product)=> {
                 precio:product.precio,
                 cantidad:product.cantidad,
             })
+
         }
+        Swal.fire("Agregado al carrito","Aceptar","success" );
         console.log(carrito);
       productosLocal();
         
